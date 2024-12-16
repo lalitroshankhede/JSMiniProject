@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock-dial
+{
+width: 500px;
+height: 500px;
+border: 20px solid purple;
+border-radius: 50%;
+margin: 0 auto;
+position: relative;
+
+}
+
+.point
+{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 205px;
+
+
+}
+
+.hour
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+}
+
+.hour-1
+{
+  top: 40px;
+  left: 300px;
+}
+
+
+.hour-2
+{
+  top: 110px;
+  left: 380px;
+}
+
+.hour-3
+{
+  top: 200px;
+  left: 400px;
+}
+
+.hour-4
+{
+  top: 290px;
+  left: 380px;
+}
+
+.hour-5
+{
+  top: 380px;
+  left: 330px;
+}
+.hour-6
+{
+  top: 400px;
+  left: 230px;
+}
+.hour-7
+{
+  top: 390px;
+  left: 130px;
+}
+.hour-8
+{
+  top: 300px;
+  left: 80px;
+}
+.hour-9
+{
+  top: 200px;
+  left: 60px;
+}
+
+.hour-10
+{
+  top: 110px;
+  left: 60px;
+}
+
+.hour-11
+{
+  top: 40px;
+  left: 130px;
+}
+
+.hour-12
+{
+  top: 10px;
+  left: 210px;
+}
+
+
+.minute-hand-wrapper
+{
+    width: 320px;
+    height: 320px;
+   position: absolute;
+   top: 50px;
+   left: 75px;
+   border-radius: 50%;
+
+}
+
+.minute-hand-wrapper{
+    position: relative;
+
+}
+.minute-hand .hand{
+    width: 4px;
+    height: 150px;
+    background-color: orangered;
+    position: absolute;
+    left: 150px;
+
+
+}
+
+.minute-hand .arrow
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    position: absolute;
+    left: 143px;
+    top:-10px;
+}
+
+
+/* Hour */
+
+
+.hour-hand-wrapper
+{
+    width: 320px;
+    height: 200px;
+   position: absolute;
+   top: -210px;
+   left: 50px;
+   border-radius: 50%;
+
+}
+
+.hour-hand-wrapper{
+    position: relative;
+
+}
+.hour-hand .hand{
+    width: 4px;
+    height: 80px;
+    background-color: orangered;
+    position: absolute;
+    left: 150px;
+
+
+}
+
+.hour-hand .arrow
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    position: absolute;
+    left: 143px;
+    top:-10px;
+}
+
+
+/* Second  */
+
+
+.second-hand-wrapper
+{
+    width: 320px;
+    height: 380px;
+   position: absolute;
+   bottom: 490px;
+   left: 60px;
+   border-radius: 50%;
+
+}
+
+.second-hand-wrapper{
+    position: relative;
+
+}
+.second-hand .hand{
+    width: 4px;
+    height: 200px;
+    background-color: orangered;
+    position: absolute;
+    left: 150px;
+
+
+}
+
+.second-hand .arrow
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    position: absolute;
+    left: 143px;
+    top:-10px;
+}

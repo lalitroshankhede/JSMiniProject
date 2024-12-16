@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.digital-clock-box
+{
+    width: 450px;
+    height: 250px;
+    background-color: crimson;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    
+}
+
+.container
+{
+    width:380px ;
+    height: 180px;
+    background-color: orange;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    border-radius: 100px;
+}
+
+.current_time
+{
+    display: flex;
+     font-size: 30px;
+     position: absolute;
+     left: 70px;
+     top: 60px;
+
+}

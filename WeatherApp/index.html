@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <!-- Search Box -->
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-box" value="">
+                <button class="submit-btn">Submit</button>
+            </div>
+            <!-- Weather Card -->
+            <div class="weather-info">
+                <p class="city-name"> </p><br>
+                <img src="temp.gif" alt="" width="50px">
+                <p class="temperature"> </p>
+                <p class="condition"> </p>
+
+                <br>
+                <table>
+
+                    <tr>
+
+                        <td> <img src="humidity.gif" alt="" width="50px">
+                            <p><strong>Humidity:</strong> <span class="humidity"> </span> </p>
+                        </td>
+                        <td>
+                            <img src="wind.gif" alt="" width="50px">
+                            <p><strong>Wind:</strong> <span class="wind"> </span></p>
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td><img src="fan.gif" alt="" width="50px">
+                            <p> <strong>Air Pressure:</strong> <span class="air-press"></span></p>
+                        </td>
+                        <td><img src="visibile.gif" alt="" width="50px">
+                            <p><strong>Visibility:</strong> <span class="visibility"> </span></p>
+                        </td>
+
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

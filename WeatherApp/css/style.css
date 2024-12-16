@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.weather-card {
+
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    background: #FF416C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.city-name {
+
+    font-weight: 600;
+
+    font-size: 30px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.condition {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+}
+
+.extra-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.extra-info p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #e3f2fd;
+    }
+
+    .weather-card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .search-box {
+        width: 100px;
+    }
+
+    .city-name {
+        font-size: 22px;
+    }
+
+    .temperature {
+        font-size: 40px;
+    }
+
+    .condition {
+        font-size: 16px;
+    }
+
+    .extra-info {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-card {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .search-box {
+        width: 90px;
+    }
+
+    .city-name {
+        font-size: 20px;
+    }
+
+    .temperature {
+        font-size: 35px;
+        color: white;
+    }
+
+    .condition {
+        font-size: 15px;
+    }
+
+    .extra-info {
+        font-size: 12px;
+    }
+}
+
+
+table {
+    width: 100%;
+}
+
+
+
+table tr td {
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+input[type=text] {
+    width: 120px;
+    height: 30px;
+    margin-top: 13px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 12px;
+
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.submit-btn {
+
+    padding: 8px 8px;
+    border-radius: 30px;
+    margin: 10px;
+
+
+}
